@@ -52,6 +52,6 @@ if st.button("Designar Tarefas"):
     # Chama função de shuffle
     designacoes = fazer_designacoes(pessoas, lideres_edificacao)
 
-    st.header("Designações de Tarefas:")
+    st.header("Tarefas:")
     for tarefa, pessoa in designacoes.items():
         st.write(f"{tarefa}: {pessoa}")
